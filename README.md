@@ -25,20 +25,12 @@ I forked this because:
 - Raze
 
 ## Running
+Currently there are no builds available, so you'll have to work from source.
+
 1. First make sure that a supported engine is running.
-2. Download a prebuilt binary from the releases section.
-3. Open a terminal (on Windows, CMD or PowerShell should work just fine) then...
-
-ENGINE = `gzdoom` or `lzdoom` or `raze`
-
-Linux: `chmod +x gzdoom-discordrpc`, then `./gzdoom-discordrpc ENGINE`
-
-Windows: `.\gzdoom-discordrpc.exe ENGINE`
-
-From source:
-1. `git clone https://github.com/Phate6660/gzdoom-discordrpc`
-2. `cd gzdoom-discordrpc`
-3. `cargo run -- ENGINE`
+2. `git clone https://github.com/Phate6660/gzdoom-discordrpc`
+3. `cd gzdoom-discordrpc`
+4. `cargo run -- ENGINE`
 
 ## Screenshots
 
